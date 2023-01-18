@@ -12,9 +12,19 @@ CONFIG += c++17
 
 SOURCES += \
     Album.cpp \
-    Picture.cpp
+    AlbumDao.cpp \
+    AlbumModel.cpp \
+    DatabaseManager.cpp \
+    Picture.cpp \
+    PictureDao.cpp \
+    PictureModel.cpp
 
 HEADERS += \
     Album.h \
+    AlbumDao.h \
+    AlbumModel.h \
+    DatabaseManager.h \
     Picture.h \
+    PictureDao.h \
+    PictureModel.h \
     gallery-core_global.h
